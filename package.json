@@ -1,5 +1,5 @@
 {
-      "name": "screen-reader-detector",
+      "name": "vertium",
         "version": "1.0.0",
           "description": "Detect when users are using screen readers (NVDA, JAWS, etc.) to prevent conflicts with built-in accessibility features",
             "main": "dist/screen-reader-detector.js",
