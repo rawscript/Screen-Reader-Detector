@@ -215,21 +215,3 @@ document.getElementById('toggleButton').addEventListener('click', () => {
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-```
-
-.gitignore
-```
-node_modules/
-dist/
-*.log
-.DS_Store
-```
-
-.npmignore
-```
-src/
-examples/
-.gitignore
-*.log
-.DS_Store
-```
