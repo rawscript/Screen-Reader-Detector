@@ -1,0 +1,33 @@
+{
+      "name": "screen-reader-detector",
+        "version": "1.0.0",
+          "description": "Detect when users are using screen readers (NVDA, JAWS, etc.) to prevent conflicts with built-in accessibility features",
+            "main": "dist/screen-reader-detector.js",
+              "module": "src/index.js",
+                "scripts": {
+                    "build": "npm run build:regular && npm run build:minified",
+                        "build:regular": "mkdir -p dist && cp src/index.js dist/screen-reader-detector.js",
+                            "build:minified": "terser src/index.js -o dist/screen-reader-detector.min.js --compress --mangle"
+                              },
+                                "keywords": [
+                                    "screen-reader",
+                                        "accessibility",
+                                            "a11y",
+                                                "nvda",
+                                                    "jaws",
+                                                        "detection",
+                                                            "assistive-technology"
+                                                              ],
+                                                                "author": "James Mwaura",
+                                                                  "license": "MIT",
+                                                                    "repository": {
+                                                                        "type": "git",
+                                                                            "url": "https://github.com/yourusername/screen-reader-detector.git"
+                                                                              },
+                                                                                "bugs": {
+                                                                                    "url": "https://github.com/yourusername/screen-reader-detector/issues"
+                                                                                      },
+                                                                                        "devDependencies": {
+                                                                                            "terser": "^5.16.0"
+                                                                                              }
+                                                                                              }
